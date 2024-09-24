@@ -34,3 +34,13 @@ async function setHeader(){
     const unsigned = document.querySelector(".unsigned");
     unsigned.classList.add("hidden");
 }
+
+// 로그아웃 처리
+const buttonSignout = document.getElementById("sign-out");
+buttonSignout.addEventListener("click", signout);
+
+function signout() {
+    // localStorage에서 토큰 제거
+    localStorage.removeItem("x-access-token");
+    location.reload();
+}
