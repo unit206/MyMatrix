@@ -1,0 +1,47 @@
+.jumbotron-item-main{
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron-item-main-message{
+    width: 60%;
+    text-align: center;
+}
+
+.jumbotron-item-main-message p{
+    font-size: 1.6rem;
+}
+
+.jumbotron-item-main-message h1{
+    font-size: 2.4rem;
+}
+
+.jumbotron-item-main-image{
+    width: 40%;
+    height: 100%;
+    /* background-image: url("../img/eisenhower.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    background: url("../../퍼블리싱/img/eisenhower.png") no-repeat center / contain;
+}
+
+.jumbotron-item-sub{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 400px) {
+    .jumbotron-item-main-message p {
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+
+    .jumbotron-item-main-message h1 {
+        font-size: 1.8rem;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,31 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+    background-color: var(--light-gray); /* 푸터의 css가 헤더의 css의 뒤에 설정되어 있어 가능 */
+    height: 4rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    align-items: center;
+    line-height: 4rem;
+    /* gap: 1.5rem; 플렉스 아이템들 간의 간격을 지정 가능 */
+}
+
+.author{
+    margin-right: 2rem;
+}
