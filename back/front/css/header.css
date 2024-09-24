@@ -42,6 +42,11 @@ header{
     color:#fff;
 }
 
+.unsigned a{
+    color:#fff;
+    font-size: 1.2rem !important;
+}
+
 .sign-container a{
     font-size: 2rem;
 }
